@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        header {
+            height: 50px;
+            width: 100%;
+            background-color: brown;
+        }
+        
+        #main {
+            width: 50%;
+            min-height: 100px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            padding: 20px;
+            margin: auto;
+            margin-top: -20px;
+        }
+        
+        .grid_item {
+            background-color: #a9fffc;
+            border: 1px solid #585858;
+            line-height: 100px;
+            text-align: center;
+        }
+        
+        #grid_item1 {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-color: blue;
+        }
+        
+        #grid_item2 {
+            background-color: chartreuse;
+        }
+        
+        #grid_item3 {
+            background-color: yellow;
+        }
+        
+        #grid_item4 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            height: 200px;
+            background-color: green;
+        }
+        
+        #grid_item8,
+        #grid_item9 {
+            height: 200px;
+            margin-top: -105px;
+        }
+        
+        #grid_item5 {
+            height: 300px;
+            background-color: orangered;
+        }
+        
+        #grid_item6 {
+            background-color: rgb(184, 121, 6);
+        }
+        
+        #grid_item7 {
+            background-color: rgb(1, 48, 1);
+        }
+        
+        #grid_item8 {
+            background-color: rgb(250, 40, 75);
+        }
+        
+        #grid_item3 {
+            background-color: rgb(172, 172, 6);
+        }
+        
+        #grid_item6,
+        #grid_item7 {
+            height: 150px;
+            grid-column-end: 5;
+        }
+        
+        #grid_item7 {
+            margin-top: -152px;
+        }
+        
+        #grid_item10 {
+            grid-column-start: 3;
+            grid-column-end: 5;
+            margin-top: -5px;
+            background-color: pink;
+        }
+        
+        #grid_item11 {
+            grid-column-start: 1;
+            grid-column-end: 5;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <div id="main">
+        <div class="grid_item" id="grid_item1">1</div>
+        <div class="grid_item" id="grid_item2">2</div>
+        <div class="grid_item" id="grid_item3">3</div>
+        <div class="grid_item" id="grid_item4">4</div>
+        <div class="grid_item" id="grid_item5">5</div>
+        <div class="grid_item" id="grid_item6">6</div>
+        <div class="grid_item" id="grid_item7">7</div>
+        <div class="grid_item" id="grid_item8">8</div>
+        <div class="grid_item" id="grid_item9">9</div>
+        <div class="grid_item" id="grid_item10">10</div>
+        <div class="grid_item" id="grid_item11">11</div>
+    </div>
+</body>
+
+</html>
